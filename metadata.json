@@ -1,0 +1,7 @@
+{
+  "name": "Aura - AI Companion & Productivity Assistant",
+  "description": "Asisten pribadi analitis dan ramah berkarakter boneka Cuby untuk mengatur jadwal Google Workspace & Calendar harian, riset proyek mendalam, ringkasan artikel, dan rekomendasi Google Maps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

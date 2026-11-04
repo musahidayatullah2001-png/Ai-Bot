@@ -1,0 +1,68 @@
+{
+  "id": "/",
+  "name": "Aura - AI Companion & Productivity Assistant",
+  "short_name": "Aura",
+  "description": "Asisten pribadi analitis dan ramah berkarakter boneka Cuby untuk mengatur jadwal Google Workspace & Calendar harian, riset proyek mendalam, ringkasan artikel, dan rekomendasi Google Maps.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#090514",
+  "theme_color": "#7e22ce",
+  "categories": ["productivity", "utilities", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Jadwal & Kalender",
+      "short_name": "Jadwal",
+      "description": "Buka jadwal Google Calendar hari ini",
+      "url": "/?tab=schedule",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Ringkas Artikel",
+      "short_name": "Ringkasan",
+      "description": "Ringkas artikel atau dokumen cepat",
+      "url": "/?tab=summarize",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Riset Proyek",
+      "short_name": "Riset",
+      "description": "Buka laboratorium riset proyek Aura",
+      "url": "/?tab=research",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
